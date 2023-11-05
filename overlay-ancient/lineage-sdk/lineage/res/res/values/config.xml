@@ -5,6 +5,11 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
+
+    <!-- Whether device has warp charging support -->
+    <bool name="config_hasWarpCharger">true</bool>
+    <string name="config_opWarpChargerStatusPaths">/sys/devices/virtual/oplus_chg/battery/voocchg_ing</string>
+
     <!-- Default value for proximity check on screen wake
      NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
     <bool name="config_proximityCheckOnWake">true</bool>
